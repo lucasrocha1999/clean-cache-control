@@ -5,7 +5,7 @@ export interface SavePurchases {
 export namespace SavePurchases {
   export type Params = {
     id: string
-    date: string
-    value: string
+    date: Date
+    value: number
   }
 }
